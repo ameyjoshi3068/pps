@@ -1,6 +1,6 @@
 list1=[1,2,3,4,5,6,7,8,9,10]
-test=False
 for i in list1:
+    test=False
     for j in list1:
         if j==1:
             continue
@@ -16,3 +16,4 @@ for i in list1:
             test=True
     if test==True:
         print (f"Number {i} is Prime number")
+        
