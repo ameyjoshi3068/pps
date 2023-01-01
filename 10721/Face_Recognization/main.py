@@ -38,3 +38,4 @@ for (x, y, w, h) in faces:
 
 # Print the list of attendees
 print(attendees)
+print("Completed")
