@@ -11,6 +11,7 @@ for i in (L):
     for j in (L):
         if i==j:
             
-        if ((i-j)<=D) and :
+
+        if ((i-j)<=D) and i>j:
             count1.append(i)
 print(len(count1))
