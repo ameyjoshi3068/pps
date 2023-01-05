@@ -4,7 +4,7 @@ N=int(ip[0])
 D=int(ip[2])
 L=[]
 count1=[]
-ipcount=[]
+=[]
 for i in range(N):
     L[i]=int(input())
     ipcount.append(L[i])
