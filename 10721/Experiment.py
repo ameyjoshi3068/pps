@@ -1,7 +1,7 @@
 # cook your dish here
 ip=input()
 N=int(ip[0])
-D=int(ip[3])
+D=int(ip[2])
 L=[]
 count1=[]
 ipcount=[]
