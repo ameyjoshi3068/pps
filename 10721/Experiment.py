@@ -9,8 +9,6 @@ for i in range(N):
     L.append(x)
 for i in (L):
     for j in (L):
-        if i==j:
-            
 
         if ((i-j)<=D) and i>j:
             count1.append(i)
