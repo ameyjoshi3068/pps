@@ -7,7 +7,6 @@ count1=[]
 for i in range(N):
     x=int(input())
     L.append(x)
-
 for i in (L):
     for j in (L):
         if (i-j)<=D:
