@@ -7,7 +7,7 @@ count1=[]
 for i in range(N):
     L[i]=int(input())
 for i in (L):
-    for j in (ipcount):
+    for j in (L):
         if (i-j)<=D:
             count1.append(i)
 print(len(count1))
