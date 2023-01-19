@@ -52,24 +52,24 @@ for _ in range(times):
         if i==0:
             count=len(string)+1
             counter=lambda x:x-1
-            angles=[16,8,4,2,1]
+            angles=[8,4,2,1]
             print(string)
         if i==90:
             count=1
             counter=lambda x:x+1
-            angles=[1,2,4,8,16]
+            angles=[1,2,4,8]
             string=string[::-1]
             for k in string:
                 print(k)
         if i==180:
             count=len(string)+1
             counter=lambda x:x-1
-            angles=[16,8,4,2,1]
+            angles=[8,4,2,1]
             print(string[::-1])
         if i==270:
             count=1
             counter=lambda x:x+1
-            angles=[1,2,4,8,16]
+            angles=[1,2,4,8]
             string="letters"
             for k in string:
                 print(k)
