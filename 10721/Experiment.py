@@ -1,6 +1,6 @@
 def prime_factors(num):
     list1=[1]
-    quotient=
+    
     for i in range(2,num):
         quotient=quotient/i
         remainder=num%i
