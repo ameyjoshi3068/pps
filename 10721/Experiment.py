@@ -1,5 +1,5 @@
 def prime_factors(num):
-    list1=[1]
+    list1=[]
     quotient=num
     for i in range(2,num):
         remainder=quotient%i
