@@ -7,7 +7,6 @@ def prime_factors(num):
             list.append(i)
         else:
             list.append(i)
-    list.append
     return list
 
 print(prime_factors(2))
