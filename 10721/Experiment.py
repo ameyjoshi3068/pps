@@ -1,5 +1,5 @@
 def prime_factors(num):
-    list=[1]
+    list1=[1]
     for i in range(2,num):
         quotient=num%i
         while quotient==0:
