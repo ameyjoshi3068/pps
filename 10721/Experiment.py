@@ -5,5 +5,6 @@ def prime_factors(num):
         while quotient==0:
             quotient=num%i
             list.append(i)
+        else
 
 
