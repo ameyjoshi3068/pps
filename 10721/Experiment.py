@@ -11,4 +11,4 @@ def prime_factors(num):
         list1.append(num)
     return list1
 
-print(prime_factors())
+print(prime_factors(1024))
