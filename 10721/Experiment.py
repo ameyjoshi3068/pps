@@ -5,8 +5,7 @@ def prime_factors(num):
         while quotient==0:
             quotient=num%i
             list.append(i)
-        else:
-            list.append(i)
+
     return list
 
 print(prime_factors(25))
