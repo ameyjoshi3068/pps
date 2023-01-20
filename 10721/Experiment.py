@@ -1,7 +1,7 @@
 def prime_factors(num):
     list1=[1]
     for i in range(2,num):
-        quotient=num/i
+        quotient=/i
         remainder=num%i
         while remainder==0:
             list1.append(i)
