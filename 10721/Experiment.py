@@ -3,10 +3,10 @@ def prime_factors(num):
     for i in range(2,num):
         quotient=num%i
         while quotient==0:
-            list.append(i)
+            list1.append(i)
             quotient=quotient%i
-    if list==[1]:
-        list.append(num)
-    return list
+    if list1==[1]:
+        list1.append(num)
+    return list1
 
 print(prime_factors(25))
