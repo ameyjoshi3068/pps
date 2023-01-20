@@ -9,4 +9,4 @@ def prime_factors(num):
             list.append(i)
     return list
 
-print(prime_factors(2))
+print(prime_factors(25))
