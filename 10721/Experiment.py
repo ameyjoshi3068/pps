@@ -7,8 +7,8 @@ def prime_factors(num):
             list1.append(i)
             quotient=quotient/i
             remainder=quotient%i
-    if list1==[1]:
+    if list1==[]:
         list1.append(num)
     return list1
 
-print(prime_factors())
+print(prime_factors(17))
