@@ -7,7 +7,6 @@ def prime_factors(num):
             list1.append(i)
             quotient=quotient/i
             remainder=quotient%i
-        quotient=quotient/i
     if list1==[1]:
         list1.append(num)
     return list1
