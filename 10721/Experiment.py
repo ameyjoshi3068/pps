@@ -9,6 +9,6 @@ def prime_factors(num):
             remainder=quotient%i
     if list1==[]:
         list1.append(num)
-    return list1
+    return map(str,list1)
 
-print(prime_factors(1024))
+print("The prime factors of the number ="," X ".join(prime_factors(1024)))
